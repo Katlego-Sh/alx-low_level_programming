@@ -1,10 +1,10 @@
 #include <stdio.h>
 /**
-* main - this is the main function
-* Retuen: 0 means correct
+*main - program starts with entry point
+*Return: Always 0 (success)
 */
 int main(void)
 {
-	printf("with proper grammar, but the outcome is a piece of art,");
+	printf("with proper grammar, but the outcome is a piece of art,\n");
 	return (0);
 }
