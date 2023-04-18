@@ -1,1 +1,1 @@
- starting C programming
+Structures and typedef
