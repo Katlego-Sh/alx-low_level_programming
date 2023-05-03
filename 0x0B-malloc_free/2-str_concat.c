@@ -15,13 +15,9 @@ char *str_concat(char *s1, char *s2)
 	unsigned int length2 = 0;
 
 	while (s1 && s1[length1])
-	{
 		length1++;
-		while (s2 && s2[length2])
-		{
+	while (s2 && s2[length2])
 		length2++;
-		}
-	}
 	s3 = malloc(sizeof(char) * (length1 + length2 + 1));
 	if (s3 == NULL)
 	{
